@@ -3,11 +3,11 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * custom_printf - Custom Printf function implementation
+ * _printf - Custom Printf function implementation
  * @format: format string.
  * Return: Printed chars numbers.
  */
-int custom_printf(const char *format, ...)
+int _printf(const char *format, ...)
 {
 	int i, printed = 0, printed_chars = 0;
 	int flags, width, precision, size, buff_ind = 0;
